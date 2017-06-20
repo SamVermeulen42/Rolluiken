@@ -1,0 +1,173 @@
+{
+    "windows": [
+        {
+            "cardClose": 1, 
+            "cardOpen": 1, 
+            "closeLight": true, 
+            "closeState": 100, 
+            "fullCycleBonus": 2000, 
+            "name": "living vooraan", 
+            "openLight": false, 
+            "relayClose": 2, 
+            "relayOpen": 1, 
+            "state": 0, 
+            "stepTimeDown": 265, 
+            "stepTimeUp": 280, 
+            "timers": [
+                {
+                    "days": [
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1
+                    ], 
+                    "description": "zomer", 
+                    "hour": 12, 
+                    "minutes": 0, 
+                    "targetState": 0
+                }
+            ]
+        }, 
+        {
+            "cardClose": 1, 
+            "cardOpen": 1, 
+            "closeLight": true, 
+            "closeState": 100, 
+            "fullCycleBonus": 1000, 
+            "name": "living zijkant", 
+            "openLight": false, 
+            "relayClose": 4, 
+            "relayOpen": 3, 
+            "state": 80, 
+            "stepTimeDown": 226, 
+            "stepTimeUp": 236, 
+            "timers": [
+                {
+                    "days": [
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1
+                    ], 
+                    "description": "zomer", 
+                    "hour": 16, 
+                    "minutes": 30, 
+                    "targetState": 0
+                }, 
+                {
+                    "days": [
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1
+                    ], 
+                    "description": "ochtend", 
+                    "hour": 6, 
+                    "minutes": 45, 
+                    "targetState": 80
+                }
+            ]
+        }, 
+        {
+            "cardClose": 1, 
+            "cardOpen": 1, 
+            "closeLight": false, 
+            "closeState": 100, 
+            "fullCycleBonus": 800, 
+            "name": "keuken", 
+            "openLight": false, 
+            "relayClose": 6, 
+            "relayOpen": 5, 
+            "state": 0, 
+            "stepTimeDown": 170, 
+            "stepTimeUp": 180, 
+            "timers": []
+        }, 
+        {
+            "cardClose": 1, 
+            "cardOpen": 1, 
+            "closeLight": true, 
+            "closeState": 100, 
+            "fullCycleBonus": 2000, 
+            "name": "slaapkamer Sam", 
+            "openLight": false, 
+            "relayClose": 8, 
+            "relayOpen": 7, 
+            "state": 0, 
+            "stepTimeDown": 250, 
+            "stepTimeUp": 260, 
+            "timers": [
+                {
+                    "days": [
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1
+                    ], 
+                    "description": "wekker", 
+                    "hour": 9, 
+                    "minutes": 0, 
+                    "targetState": 0
+                }
+            ]
+        }, 
+        {
+            "cardClose": 2, 
+            "cardOpen": 2, 
+            "closeLight": true, 
+            "closeState": 100, 
+            "fullCycleBonus": 1000, 
+            "name": "game room", 
+            "openLight": false, 
+            "relayClose": 2, 
+            "relayOpen": 1, 
+            "state": 0, 
+            "stepTimeDown": 217, 
+            "stepTimeUp": 225, 
+            "timers": []
+        }, 
+        {
+            "cardClose": 2, 
+            "cardOpen": 2, 
+            "closeLight": true, 
+            "closeState": 85, 
+            "fullCycleBonus": 1000, 
+            "name": "slaapkamer ouders", 
+            "openLight": false, 
+            "relayClose": 4, 
+            "relayOpen": 3, 
+            "state": 0, 
+            "stepTimeDown": 217, 
+            "stepTimeUp": 225, 
+            "timers": [
+                {
+                    "days": [
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1, 
+                        1
+                    ], 
+                    "description": "zomer", 
+                    "hour": 12, 
+                    "minutes": 0, 
+                    "targetState": 0
+                }
+            ]
+        }
+    ]
+}
